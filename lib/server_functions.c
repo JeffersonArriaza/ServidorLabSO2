@@ -51,10 +51,8 @@ int srv_accept_client(int server_fd) {
         perror("Error al aceptar una conexion");
         return -1;
 
-    }else{
-
-        printf("Nueva conexión aceptada desde %s:%d\n", inet_ntoa(client_address.sin_addr), ntohs(client_address.sin_port));
-        return client_fd;
     }
+    printf("Nueva conexión aceptada desde %s:%d\n", inet_ntoa(client_address.sin_addr), ntohs(client_address.sin_port));
+    return client_fd;
 }
 
