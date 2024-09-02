@@ -1,3 +1,6 @@
 Notas:
 
-1. Para que funcione el make debe seguir la siguiente sintaxis "make servidor".
+1. Se pueden ejecutar los archivos utilizando la palabra "make"
+2. Aveces se produce un error porque el puerto se encuentra ocupado, para verificarlo utilice sudo lsof -i :5050 y luego sudo kill PID
+
+
