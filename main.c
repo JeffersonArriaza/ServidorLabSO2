@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include "lib/server_functions.h"
+#include "lib/log.h"
 
 #define PORT 5050
 
