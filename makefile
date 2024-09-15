@@ -1,16 +1,16 @@
-# Regla para generar el ejecutable
-servidor: server_functions.o main.o log.o
-	gcc server_functions.o main.o log.o -o servidor
+#Dependencias y objetos
+dependencias = lib/server_functions.c main.c lib/log.c lib/server_handle_cli.c
+objetos = lib/server_functions.o main.o lib/log.o lib/server_handle_cli.o
 
-# Regla para compilar el archivo objeto log.o
-log.o: lib/log.c
-	gcc -c lib/log.c -o log.o
+#Regla para generar el ejecutable en base a los objetos
+servidor: $(objetos)
+	gcc -o $@ $(objetos)
 
-# Regla para compilar el archivo objeto server_functions.o
-server_functions.o: lib/server_functions.c
-	gcc -c lib/server_functions.c -o server_functions.o
+#Regla para crear archivos objeto a partir de sus respectivos archivos .c
+lib/%.o: lib/%.c
+	gcc -c $< -o $@
 
-# Regla para compilar el archivo objeto main.o
+#Regla para crear el main.o a partir de su archivo .c
 main.o: main.c
-	gcc -c main.c -o main.o
+	gcc -c $< -o $@
 
