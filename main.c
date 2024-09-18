@@ -21,7 +21,6 @@ int main() {
         }
 
     srv_handle_client(client_fd); //Función para manejar la solicitud HTTP del cliente
-    sleep(1); //Esperar un segundo debido que a que los servidores pueden realizar muchas solicitudes
     close(client_fd); //Cerrar el socket del cliente
     }
 
