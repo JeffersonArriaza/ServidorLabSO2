@@ -33,7 +33,7 @@ int srv_init(int port) {
     }
 
     //Colocar el socket en modo escucha/pasivo
-    if (listen(server_fd, 3) < 0) { //Cambiar en el futuro
+    if (listen(server_fd, 10) < 0) { //Cambiar en el futuro
         log_error("Ha ocurrido un error al configurar el Socket en el modo escucha/pasivo\n");
         close(server_fd);
         exit(EXIT_FAILURE);

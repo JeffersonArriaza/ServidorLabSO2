@@ -23,7 +23,8 @@ int main() {
     srv_handle_client(client_fd); //Función para manejar la solicitud HTTP del cliente
     close(client_fd); //Cerrar el socket del cliente
     }
-
+    
+ log_event("Conexión cerrada con el cliente.");
  close(server_fd);
  return 0;
 } 

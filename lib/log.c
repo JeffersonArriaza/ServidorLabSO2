@@ -9,7 +9,7 @@ void log_event(const char *message) {
     FILE *file;
     time_t now;
     char timestamp[40];
-    char filename[50]; 
+    char filename[70]; 
     struct stat st = {0};
 
     //Verificar si el directorio "logs" existe, si no, crearlo
@@ -45,7 +45,7 @@ void log_error(const char *message) {
     FILE *file;
     time_t now;
     char timestamp[40];
-    char filename[50];  
+    char filename[70];  
     struct stat st = {0};
 
     //Verificar si el directorio "logs" existe, si no, crearlo

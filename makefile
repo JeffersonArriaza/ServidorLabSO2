@@ -14,3 +14,5 @@ lib/%.o: lib/%.c
 main.o: main.c
 	gcc -c $< -o $@
 
+clean:
+	rm -f $(objetos) servidor

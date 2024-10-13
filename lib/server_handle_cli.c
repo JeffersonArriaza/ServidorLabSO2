@@ -9,25 +9,25 @@
 #include <unistd.h>
 #include <time.h>
 
-//Funcion para extraer el metodo y la URL
+// Función para extraer el método y la URL de la solicitud HTTP
 void parse_request(const char *request, http_req *req) {
     int i = 0, j = 0;
     
-    //Extraer el metodo (primera palabra)
+    // Extraer el método (primera palabra)
     while (request[i] != ' ' && request[i] != '\0') {
         req->method[j++] = request[i++];
     }
-    req->method[j] = '\0';  //Fin de cadena del metodo
-    i++; 
+    req->method[j] = '\0';  // Fin de cadena del método
+    i++;  // Pasar el espacio
 
-    //Reiniciar el índice para la URL
+    // Reiniciar el índice para la URL
     j = 0;
 
-    //Extraer la URL (segunda palabra)
+    // Extraer la URL (segunda palabra)
     while (request[i] != ' ' && request[i] != '\0') {
         req->url[j++] = request[i++];
     }
-    req->url[j] = '\0';  //Fin de cadena de la URL
+    req->url[j] = '\0';  // Fin de cadena de la URL
 }
 
 void http_response(int client_fd, int http_code, const char* content_type, const char* body) {
@@ -47,57 +47,66 @@ void http_response(int client_fd, int http_code, const char* content_type, const
     send(client_fd, body, strlen(body), 0);
 }
 
-//Funcion para manejar la solicitud del cliente
+// Función para manejar la solicitud del cliente
 void srv_handle_client(int client_fd) {
     char buffer[BUFFER_SIZE];
     http_req request;
 
-    //Configuracion de la direccion del cliente
+    // Configuración de la dirección del cliente
     struct sockaddr_in client_addr;
     socklen_t addr_len = sizeof(client_addr);
     char client_ip[INET_ADDRSTRLEN];
-    char log_message[1024];
+    int client_port;
 
-    //Obtener la información del cliente
-    getpeername(client_fd, (struct sockaddr *)&client_addr, &addr_len); //recupera la direccion del mismo nivel al que está conectado un socket.
+    // Obtener la información del cliente
+    getpeername(client_fd, (struct sockaddr *)&client_addr, &addr_len);
     inet_ntop(AF_INET, &client_addr.sin_addr, client_ip, sizeof(client_ip));
-    int client_port = ntohs(client_addr.sin_port);
+    client_port = ntohs(client_addr.sin_port);
 
-    //Leer la solicitud del cliente
+    // Leer la solicitud del cliente
     int read_bytes = recv(client_fd, buffer, sizeof(buffer) - 1, 0);
     if (read_bytes <= 0) {
         log_error("No se puede leer la solicitud del cliente.");
+        close(client_fd);
+        log_event("Conexión cerrada con el cliente.");
         return;
     }
 
-    buffer[read_bytes] = '\0';
-    parse_request(buffer, &request); //Analizar la solicitud HTTP
+    buffer[read_bytes] = '\0';  // Asegurarse de que la cadena esté terminada en nulo
+    parse_request(buffer, &request);  // Analizar la solicitud HTTP
     int http_code;
     char *content = NULL;
-    char content_type[] = "text/html";
+    const char* content_type = NULL; // Inicializar content_type
 
-    //Verificar si el metodo es GET
+    // Verificar si el método es GET
     if (strcmp(request.method, "GET") != 0) {
-        log_error("Metodo no corresponde a GET.");
-        http_code = 405;  // Method Not Allowed.
+        log_error("Método no corresponde a GET.");
+        http_code = 405;  // Method Not Allowed
         content = "<h1>405 Method Not Allowed</h1>";
-    }else {
-        // Obtener el contenido del archivo solicitado.
-        content = get_file_contents(request.url, &http_code);
+        content_type = "text/html";  // Establecer tipo de contenido por defecto
+    } else {
+        // Obtener el contenido del archivo solicitado
+        content = get_file_contents(request.url, &http_code, &content_type);
         if (content == NULL) {
             http_code = 404;
             content = "<h1>404 Not Found</h1>";
+            content_type = "text/html";
+            log_error("El archivo solicitado no fue encontrado.");
         }
     }
 
-     //Enviar la respuesta al cliente.
-     http_response(client_fd, http_code, content_type, content);
+    // Enviar la respuesta al cliente
+    http_response(client_fd, http_code, content_type, content);
 
-    //Registrar la solicitud en los logs de eventos
-    snprintf(log_message, sizeof(log_message), "El cliente %s:%d solicita conexion en %s con el método %s",
-         client_ip, client_port, request.url, request.method);
+    // Registrar la solicitud en los logs de eventos
+    char log_message[1024];
+    snprintf(log_message, sizeof(log_message), "El cliente %s:%d solicita conexión en %s con el método %s",
+             client_ip, client_port, request.url, request.method);
     log_event(log_message);
 
-     free(content);  //Liberar el contenido del archivo
+    free(content);  // Liberar el contenido del archivo
+    log_event("Conexión cerrada con el cliente.");
+    close(client_fd); // Cerrar el socket del cliente
 }
+
 

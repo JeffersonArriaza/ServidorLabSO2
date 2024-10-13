@@ -1,9 +1,10 @@
 #ifndef FILE_HANDLER_H
 #define FILE_HANDLER_H
 
-#define HTML_ROOT "html"  //Directorio raíz de los archivos
+// Define el directorio raíz de los archivos
+#define HTML_ROOT "html"  
 
-//Funcion que obtiene el contenido de un archivo
-char* get_file_contents(const char* url, int* http_code);
+// Declaración de la función que obtiene el contenido de un archivo
+char* get_file_contents(const char* url, int* http_code, const char** mime_type);
 
-#endif
+#endif // FILE_HANDLER_H
