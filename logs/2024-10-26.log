@@ -1,0 +1,284 @@
+[2024-10-26] Evento: El servidor está en modo escucha.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:59560
+[2024-10-26] Evento: OK
+[2024-10-26] Evento: El cliente 127.0.0.1:59560 solicita conexión en / con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:59570
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:47684
+[2024-10-26] Evento: OK
+[2024-10-26] Evento: El cliente 127.0.0.1:47684 solicita conexión en /sitio1 con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:47686
+[2024-10-26] Evento: OK
+[2024-10-26] Evento: El cliente 127.0.0.1:47686 solicita conexión en /sitio1/index.html con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:47702
+[2024-10-26] Evento: OK
+[2024-10-26] Evento: El cliente 127.0.0.1:47702 solicita conexión en /sitio1/js/jquery.js con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:47714
+[2024-10-26] Evento: OK
+[2024-10-26] Evento: El cliente 127.0.0.1:47714 solicita conexión en /sitio1/js/main.js con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:47716
+[2024-10-26] Evento: OK
+[2024-10-26] Evento: El cliente 127.0.0.1:47716 solicita conexión en /sitio1/js/filtro.js con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:47722
+[2024-10-26] Evento: OK
+[2024-10-26] Evento: El cliente 127.0.0.1:47722 solicita conexión en /sitio1/estilos.css con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:47736
+[2024-10-26] Evento: El cliente 127.0.0.1:47736 solicita conexión en /sitio1/img/people1.jpg con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:47746
+[2024-10-26] Evento: El cliente 127.0.0.1:47746 solicita conexión en /sitio1/img/logo.png con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:47748
+[2024-10-26] Evento: El cliente 127.0.0.1:47748 solicita conexión en /sitio1/img/people2.jpg con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:47756
+[2024-10-26] Evento: El cliente 127.0.0.1:47756 solicita conexión en /sitio1/img/people3.jpg con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:47768
+[2024-10-26] Evento: El cliente 127.0.0.1:47768 solicita conexión en /sitio1/img/heart.png con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:47774
+[2024-10-26] Evento: El cliente 127.0.0.1:47774 solicita conexión en /sitio1/img/responsive.png con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:47778
+[2024-10-26] Evento: El cliente 127.0.0.1:47778 solicita conexión en /sitio1/img/programacion1.jpeg con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:47790
+[2024-10-26] Evento: El cliente 127.0.0.1:47790 solicita conexión en /sitio1/img/marketing1.jpeg con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:47792
+[2024-10-26] Evento: El cliente 127.0.0.1:47792 solicita conexión en /sitio1/img/marketing2.jpeg con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:47806
+[2024-10-26] Evento: El cliente 127.0.0.1:47806 solicita conexión en /sitio1/img/diseno3.jpeg con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:47808
+[2024-10-26] Evento: El cliente 127.0.0.1:47808 solicita conexión en /sitio1/img/diseno2.jpeg con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:47820
+[2024-10-26] Evento: El cliente 127.0.0.1:47820 solicita conexión en /sitio1/img/diseno1.jpeg con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:47832
+[2024-10-26] Evento: El cliente 127.0.0.1:47832 solicita conexión en /sitio1/img/efectos.png con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:47844
+[2024-10-26] Evento: El cliente 127.0.0.1:47844 solicita conexión en /sitio1/img/programacion2.jpeg con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:47858
+[2024-10-26] Evento: El cliente 127.0.0.1:47858 solicita conexión en /sitio1/img/marketing3.jpeg con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:47866
+[2024-10-26] Evento: El cliente 127.0.0.1:47866 solicita conexión en /sitio1/img/programacion3.jpeg con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:47872
+[2024-10-26] Evento: El cliente 127.0.0.1:47872 solicita conexión en /sitio1/img/fondo.jpg con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:47874
+[2024-10-26] Evento: El cliente 127.0.0.1:47874 solicita conexión en /sitio1/img/teclado.jpg con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:57778
+[2024-10-26] Evento: OK
+[2024-10-26] Evento: El cliente 127.0.0.1:57778 solicita conexión en /sitio2/ con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:57786
+[2024-10-26] Evento: OK
+[2024-10-26] Evento: El cliente 127.0.0.1:57786 solicita conexión en /sitio2/index.html con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:57790
+[2024-10-26] Evento: OK
+[2024-10-26] Evento: El cliente 127.0.0.1:57790 solicita conexión en /sitio2/css/estilos.css con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:57798
+[2024-10-26] Evento: El cliente 127.0.0.1:57798 solicita conexión en /sitio2/img/ilustracion2.svg con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:57814
+[2024-10-26] Evento: El cliente 127.0.0.1:57814 solicita conexión en /sitio2/img/img1.jpg con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:57828
+[2024-10-26] Evento: El cliente 127.0.0.1:57828 solicita conexión en /sitio2/img/icono1.png con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:57836
+[2024-10-26] Evento: El cliente 127.0.0.1:57836 solicita conexión en /sitio2/img/img2.jpg con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:57852
+[2024-10-26] Evento: El cliente 127.0.0.1:57852 solicita conexión en /sitio2/img/img3.jpg con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:57858
+[2024-10-26] Evento: El cliente 127.0.0.1:57858 solicita conexión en /sitio2/img/img4.jpg con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:57872
+[2024-10-26] Evento: El cliente 127.0.0.1:57872 solicita conexión en /sitio2/img/img5.jpg con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:57874
+[2024-10-26] Evento: El cliente 127.0.0.1:57874 solicita conexión en /sitio2/img/img6.jpg con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:57878
+[2024-10-26] Evento: El cliente 127.0.0.1:57878 solicita conexión en /sitio2/img/ilustracion4.svg con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:57880
+[2024-10-26] Evento: El cliente 127.0.0.1:57880 solicita conexión en /sitio2/img/ilustracion1.svg con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:57888
+[2024-10-26] Evento: El cliente 127.0.0.1:57888 solicita conexión en /sitio2/img/face1.jpg con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:57898
+[2024-10-26] Evento: El cliente 127.0.0.1:57898 solicita conexión en /sitio2/img/ilustracion3.svg con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:57904
+[2024-10-26] Evento: El cliente 127.0.0.1:57904 solicita conexión en /sitio2/img/img7.jpg con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:57906
+[2024-10-26] Evento: El cliente 127.0.0.1:57906 solicita conexión en /sitio2/img/face2.jpg con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:57910
+[2024-10-26] Evento: El cliente 127.0.0.1:57910 solicita conexión en /sitio2/img/portada.jpg con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:57924
+[2024-10-26] Evento: OK
+[2024-10-26] Evento: El cliente 127.0.0.1:57924 solicita conexión en /sitio3/ con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:33750
+[2024-10-26] Evento: OK
+[2024-10-26] Evento: El cliente 127.0.0.1:33750 solicita conexión en /sitio3/index.html con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:33754
+[2024-10-26] Evento: OK
+[2024-10-26] Evento: El cliente 127.0.0.1:33754 solicita conexión en /sitio3/js/jquery.min.js con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:33768
+[2024-10-26] Evento: OK
+[2024-10-26] Evento: El cliente 127.0.0.1:33768 solicita conexión en /sitio3/js/popper.min.js con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:33778
+[2024-10-26] Evento: OK
+[2024-10-26] Evento: El cliente 127.0.0.1:33778 solicita conexión en /sitio3/js/bootstrap.bundle.min.js con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:33788
+[2024-10-26] Evento: OK
+[2024-10-26] Evento: El cliente 127.0.0.1:33788 solicita conexión en /sitio3/js/jquery-3.0.0.min.js con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:33792
+[2024-10-26] Evento: OK
+[2024-10-26] Evento: El cliente 127.0.0.1:33792 solicita conexión en /sitio3/css/bootstrap.min.css con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:33794
+[2024-10-26] Evento: OK
+[2024-10-26] Evento: El cliente 127.0.0.1:33794 solicita conexión en /sitio3/js/jquery.mCustomScrollbar.concat.min.js con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:33796
+[2024-10-26] Evento: OK
+[2024-10-26] Evento: El cliente 127.0.0.1:33796 solicita conexión en /sitio3/js/custom.js con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:33798
+[2024-10-26] Evento: OK
+[2024-10-26] Evento: El cliente 127.0.0.1:33798 solicita conexión en /sitio3/css/style.css con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:33814
+[2024-10-26] Evento: OK
+[2024-10-26] Evento: El cliente 127.0.0.1:33814 solicita conexión en /sitio3/css/responsive.css con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:33828
+[2024-10-26] Evento: OK
+[2024-10-26] Evento: El cliente 127.0.0.1:33828 solicita conexión en /sitio3/css/jquery.mCustomScrollbar.min.css con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:33844
+[2024-10-26] Evento: El cliente 127.0.0.1:33844 solicita conexión en /sitio3/images/loading.gif con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:33850
+[2024-10-26] Evento: El cliente 127.0.0.1:33850 solicita conexión en /sitio3/images/logo.png con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:33856
+[2024-10-26] Evento: El cliente 127.0.0.1:33856 solicita conexión en /sitio3/css/css/animate.min.css con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:33860
+[2024-10-26] Evento: El cliente 127.0.0.1:33860 solicita conexión en /sitio3/css/css/normalize.css con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:33872
+[2024-10-26] Evento: El cliente 127.0.0.1:33872 solicita conexión en /sitio3/css/css/icomoon.css con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:33886
+[2024-10-26] Evento: El cliente 127.0.0.1:33886 solicita conexión en /sitio3/css/css/font-awesome.min.css con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:33890
+[2024-10-26] Evento: El cliente 127.0.0.1:33890 solicita conexión en /sitio3/css/css/meanmenu.css con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:33898
+[2024-10-26] Evento: El cliente 127.0.0.1:33898 solicita conexión en /sitio3/css/css/owl.carousel.min.css con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:33908
+[2024-10-26] Evento: El cliente 127.0.0.1:33908 solicita conexión en /sitio3/css/css/swiper.min.css con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:33924
+[2024-10-26] Evento: El cliente 127.0.0.1:33924 solicita conexión en /sitio3/css/css/slick.css con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:33936
+[2024-10-26] Evento: El cliente 127.0.0.1:33936 solicita conexión en /sitio3/css/css/jquery.fancybox.min.css con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:33952
+[2024-10-26] Evento: El cliente 127.0.0.1:33952 solicita conexión en /sitio3/css/css/jquery-ui.css con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:33956
+[2024-10-26] Evento: El cliente 127.0.0.1:33956 solicita conexión en /sitio3/css/css/nice-select.css con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:33972
+[2024-10-26] Evento: El cliente 127.0.0.1:33972 solicita conexión en /sitio3/images/menu_icon.png con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:33984
+[2024-10-26] Evento: El cliente 127.0.0.1:33984 solicita conexión en /sitio3/images/truc1.png con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:33994
+[2024-10-26] Evento: El cliente 127.0.0.1:33994 solicita conexión en /sitio3/images/ser1.png con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:34010
+[2024-10-26] Evento: El cliente 127.0.0.1:34010 solicita conexión en /sitio3/images/track.png con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:34014
+[2024-10-26] Evento: El cliente 127.0.0.1:34014 solicita conexión en /sitio3/images/why2.png con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:34024
+[2024-10-26] Evento: El cliente 127.0.0.1:34024 solicita conexión en /sitio3/images/ser3.png con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:34032
+[2024-10-26] Evento: El cliente 127.0.0.1:34032 solicita conexión en /sitio3/images/our.png con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:34044
+[2024-10-26] Evento: El cliente 127.0.0.1:34044 solicita conexión en /sitio3/images/ser4.png con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:34050
+[2024-10-26] Evento: El cliente 127.0.0.1:34050 solicita conexión en /sitio3/images/ser2.png con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:34062
+[2024-10-26] Evento: El cliente 127.0.0.1:34062 solicita conexión en /sitio3/images/why1.png con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:34068
+[2024-10-26] Evento: El cliente 127.0.0.1:34068 solicita conexión en /sitio3/images/truc4.png con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:34082
+[2024-10-26] Evento: El cliente 127.0.0.1:34082 solicita conexión en /sitio3/images/truc2.png con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:34094
+[2024-10-26] Evento: El cliente 127.0.0.1:34094 solicita conexión en /sitio3/images/ser5.png con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:34106
+[2024-10-26] Evento: El cliente 127.0.0.1:34106 solicita conexión en /sitio3/images/about.png con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:34118
+[2024-10-26] Evento: El cliente 127.0.0.1:34118 solicita conexión en /sitio3/images/truc3.png con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:34134
+[2024-10-26] Evento: El cliente 127.0.0.1:34134 solicita conexión en /sitio3/images/map.png con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:34144
+[2024-10-26] Evento: El cliente 127.0.0.1:34144 solicita conexión en /sitio3/images/banner.png con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
+[2024-10-26] Evento: Nueva conexión aceptada desde 127.0.0.1:34150
+[2024-10-26] Evento: OK
+[2024-10-26] Evento: El cliente 127.0.0.1:34150 solicita conexión en /sitio3/index.html con el método GET
+[2024-10-26] Evento: Conexión cerrada con el cliente.
