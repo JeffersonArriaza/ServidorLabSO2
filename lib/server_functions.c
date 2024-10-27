@@ -33,7 +33,7 @@ int srv_init(int port) {
     }
 
     //Colocar el socket en modo escucha/pasivo
-    if (listen(server_fd, 10) < 0) { //Cambiar en el futuro
+    if (listen(server_fd, LISTENQ) < 0) { //LISTENQ es la cola de conexiones
         log_error("Ha ocurrido un error al configurar el Socket en el modo escucha/pasivo\n");
         close(server_fd);
         exit(EXIT_FAILURE);
@@ -52,10 +52,17 @@ int srv_accept_client(int server_fd) {
 
     //Aceptar una conexión
     if ((client_fd = accept(server_fd, (SA *)&client_address, &client_len)) < 0) {
-        log_error("Error al aceptar una conexion");
-        return -1;
-
+        // Manejo de errores al aceptar conexión
+        if (errno == ENOBUFS) {
+            log_error("Error: La cola de conexiones está llena (ENOBUFS).");
+        } else {
+            char error_message[256];
+            snprintf(error_message, sizeof(error_message), "Error al aceptar una conexión: %s", strerror(errno));
+            log_error(error_message);
+        }
+        return -1; // Retorna -1 en caso de error
     }
+
     snprintf(message, sizeof(message), "Nueva conexión aceptada desde %s:%d",inet_ntoa(client_address.sin_addr), ntohs(client_address.sin_port));
     log_event(message);
     return client_fd;

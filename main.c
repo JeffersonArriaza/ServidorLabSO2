@@ -4,27 +4,32 @@
 #include "lib/server_functions.h"
 #include "lib/log.h"
 #include "lib/server_handle_cli.h"
+#include <pthread.h>
+#include "lib/queue.h"
 
 #define PORT 5050
+#define THREAD_POOL_SIZE 10 // Tamaño del pool de hilos
+
+Queue *connection_queue; // Cola para manejar las conexiones
 
 int main() {
-
     int server_fd, client_fd;
     server_fd = srv_init(PORT);
+    connection_queue = create_queue(THREAD_POOL_SIZE); // Inicializar la cola
 
+    // Mantener el programa en ejecución, no es necesario manejar la finalización aquí por ahora
     while (1) {
-        
         client_fd = srv_accept_client(server_fd);
 
         if (client_fd < 0) {
-            continue;
+            log_event("Error al aceptar la conexión");
+            continue; // Continúa esperando nuevas conexiones
         }
 
-    srv_handle_client(client_fd); //Función para manejar la solicitud HTTP del cliente
-    close(client_fd); //Cerrar el socket del cliente
+        enqueue(connection_queue, client_fd); // Encolar el file descriptor
     }
-    
- log_event("Conexión cerrada con el cliente.");
- close(server_fd);
- return 0;
-} 
+
+    close(server_fd);
+    destroy_queue(connection_queue); // Liberar memoria si es necesario
+    return 0;
+}
